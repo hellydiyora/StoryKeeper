@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Collection = () => {
   return (
-    <div>Collection</div>
-  )
-}
+    <div className="bg-[#FAF7F0] mt-18 h-lvh"> 
 
-export default Collection
+      <h1 className="text-red-900">COLLECTION</h1>
+    </div>
+  );
+};
+
+export default Collection;

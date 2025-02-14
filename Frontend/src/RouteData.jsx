@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import Affirmation from "./Components/Affirmation";
 import Shelf from "./Components/Shelf";
 import Blogs from "./Components/Blogs";
+import Footer from "./Components/Footer";
 
 const RouteData = () => {
   return (
@@ -18,6 +19,7 @@ const RouteData = () => {
         <Route path="/shelf" element={<Shelf />} />
         <Route path="/blog" element={<Blogs />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
