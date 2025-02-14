@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-special: "Special Elite", "serif";
+    --font-delius: "Delius", serif;
+}
