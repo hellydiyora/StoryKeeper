@@ -3,9 +3,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
 import { BookmarkProvider } from './context/BookmarkContext';
 import { BlogProvider } from './context/BlogContext';
-import Navbar from './components/layout/Navbar';
-import Footer from './components/layout/Footer';
-import ScrollToTop from './components/common/ScrollToTop';
+import Navbar from './Components/layout/Navbar';
+import Footer from './Components/layout/Footer';
+import ScrollToTop from './Components/common/ScrollToTop';
 import Router from './Router';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       <div className="min-h-screen bg-lavender-50 dark:bg-gray-900 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-3xl font-serif italic text-lavender-700 dark:text-lavender-300">
-            Bookish
+            StoryKeeper
           </h1>
           <div className="mt-4 flex space-x-2 justify-center">
             {[...Array(3)].map((_, i) => (

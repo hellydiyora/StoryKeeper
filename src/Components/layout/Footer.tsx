@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <Link to="/" className="flex items-center">
               <BookOpen className="h-6 w-6 text-lavender-600 dark:text-lavender-400" />
               <span className="ml-2 text-xl font-serif italic font-medium text-gray-800 dark:text-white">
-                Bookish
+                StoryKeeper
               </span>
             </Link>
             <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
