@@ -8,7 +8,7 @@ import NotFound from './pages/NotFound';
 
 const Router = () => {
   return (
-    <BrowserRouter>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/recommendations" element={<Recommendations />} />
@@ -16,7 +16,6 @@ const Router = () => {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
   );
 };
 
