@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
           <Link to="/" className="flex items-center">
             <BookOpen className="h-8 w-8 text-lavender-600 dark:text-lavender-400" />
             <span className="ml-2 text-xl font-serif italic font-medium text-gray-800 dark:text-white">
-              Story Keeper
+              Bookish
             </span>
           </Link>
           

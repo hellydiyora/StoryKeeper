@@ -25,7 +25,7 @@ function App() {
       <div className="min-h-screen bg-lavender-50 dark:bg-gray-900 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-3xl font-serif italic text-lavender-700 dark:text-lavender-300">
-            Story Keeper
+            Bookish
           </h1>
           <div className="mt-4 flex space-x-2 justify-center">
             {[...Array(3)].map((_, i) => (
