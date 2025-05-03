@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import AffirmationCard from '../components/affirmations/AffirmationCard';
+import AffirmationCard from '../Components/affirmations/AffirmationCard';
 import { affirmations } from '../data/affirmations';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 

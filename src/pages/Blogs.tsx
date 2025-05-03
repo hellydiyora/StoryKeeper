@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import BlogForm from '../components/blogs/BlogForm';
-import BlogList from '../components/blogs/BlogList';
+import BlogForm from '../Components/blogs/BlogForm';
+import BlogList from '../Components/blogs/BlogList';
 import { useBlogs } from '../context/BlogContext';
 import { Search, Filter, X } from 'lucide-react';
 

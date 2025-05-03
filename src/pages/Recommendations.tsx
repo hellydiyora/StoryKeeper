@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import BookFilters from '../components/recommendations/BookFilters';
-import BookGrid from '../components/recommendations/BookGrid';
+import BookFilters from '../Components/recommendations/BookFilters';
+import BookGrid from '../Components/recommendations/BookGrid';
 import { allBooks } from '../data/books';
 
 const Recommendations: React.FC = () => {

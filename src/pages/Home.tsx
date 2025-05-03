@@ -1,6 +1,6 @@
 import React from 'react';
-import Hero from '../components/home/Hero';
-import FeaturedBooks from '../components/home/FeaturedBooks';
+import Hero from '../Components/home/Hero';
+import FeaturedBooks from '../Components/home/FeaturedBooks';
 
 const Home: React.FC = () => {
   return (
